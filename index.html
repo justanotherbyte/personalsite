@@ -11,9 +11,9 @@
                     <a href="/index.html"><span class="ml-3 text-xl font-semibold text-white font-mono">Vish</span></a>
                 </a>
                 <nav class="md:ml-auto flex flex-wrap items-center text-base font-semibold font-mono justify-center text-gray-300">
-                    <a class="mr-5 hover:text-gray-400 duration-300" href="#projectanchor">Projects</a>
-                    <a class="mr-5 hover:text-gray-400 duration-300">Second Link</a>
-                    <a class="mr-5 hover:text-gray-400 duration-300">Third Link</a>
+                    <a class="mr-5 hover:text-gray-400 duration-300" href="#myprojects">Projects</a>
+                    <a class="mr-5 hover:text-gray-400 duration-300">Technologies</a>
+                    <a class="mr-5 hover:text-gray-400 duration-300">Timeline</a>
                     <a class="mr-5 hover:text-gray-400 duration-300" href="mailto:wishymovies@gmail.com">Contact Me</a>
                 </nav>
                 <button
@@ -33,27 +33,37 @@
                     <img class="object-cover object-center rounded hover:shadow-lg rounded-full border-4 border-transparent hover:border-blue-400 duration-300" alt="hero" src="static/images/pfp.jpg">
                 </div>
               <div class="flex lg:max-w-lg lg:w-full md:w-1/2 w-5/6 justify-start">
-                <img class="object-cover object-center rounded-xl hover:shadow-lg border-2 border-transparent hover:border-red-400 duration-300 hover:animate-pulse" alt="hero" src="static/images/carbon.png">
+                <img class="object-cover invisible md:visible object-center rounded-xl hover:shadow-lg border-2 border-transparent hover:border-red-400 duration-300 hover:animate-pulse" alt="hero" src="static/images/carbon.png">
               </div>
             </div>
           </section>
         <section>
             <div class="container mx-auto flex-wrap p-5 flex-col md:flex-row items-center mt-5">
                 <h2 class="ml-3 text-xl font-semibold text-gray-100 font-mono">My Projects</h2>
-                <div class="grid grid-cols-3 auto-rows-auto ml-3 mt-2 gap-2">
-                    <div class="bg-project-box h-36 w-full border-l-4 rounded shadow">
-                        <h3 class="text-gray-100 font-mono font-semibold text-lg ml-3 mt-3">discord.ext.oauth</h3>
-                        <p class="text-gray-100 font-mono font-semibold ml-3">An asynchronous OAuth2 extension for discord.py.</p>
-                        <button class="bg-blue-400 ml-3 px-2 py-1 rounded text-gray-100 hover:bg-blue-500 font-mono font-semibold mt-2"
+                <div class="grid grid-cols-1 auto-rows-auto ml-3 mt-2 gap-3 sm:grid-cols-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                    <div class="bg-project-box h-auto w-full border-l-4 rounded shadow border-green-500">
+                        <h3 class="text-gray-100 font-mono font-semibold text-lg ml-4 mt-4">discord.ext.oauth</h3>
+                        <p class="text-gray-100 font-mono font-semibold ml-4">An asynchronous OAuth2 extension for discord.py.</p>
+                        <button class="bg-blue-400 ml-4 px-2 py-1 rounded text-gray-100 hover:bg-blue-500 font-mono font-semibold mt-2"
                         onclick="location.href='https://github.com/justanotherbyte/discord.ext.oauth'"
                         >Visit</button>
+                        <img src="static/images/examples/extoauth.png" class="mx-auto p-4" style="border-radius: 1.5rem;">
                     </div>
-                    <div class="bg-project-box h-36 w-full border-l-4 rounded shadow">
-                        <h3 class="text-gray-100 font-mono font-semibold text-lg ml-3 mt-3">Photon</h3>
-                        <p class="text-gray-100 font-mono font-semibold ml-3">A hypersafe and fast language for manipulating Images.</p>
-                        <button class="bg-blue-400 ml-3 px-2 py-1 rounded text-gray-100 hover:bg-blue-500 font-mono font-semibold mt-2"
+                    <div class="bg-project-box h-auto w-full border-l-4 rounded shadow border-green-500">
+                        <h3 class="text-gray-100 font-mono font-semibold text-lg ml-4 mt-4">Photon</h3>
+                        <p class="text-gray-100 font-mono font-semibold ml-4">A hypersafe and fast language for manipulating Images.</p>
+                        <button class="bg-blue-400 ml-4 px-2 py-1 rounded text-gray-100 hover:bg-blue-500 font-mono font-semibold mt-2"
                         onclick="location.href='https://github.com/PhotonLang/photon'"
                         >Visit</button>
+                        <img src="static/images/examples/photon.png" class="mx-auto p-4" style="border-radius: 1.5rem;">
+                    </div>
+                    <div class="bg-project-box h-auto w-full border-l-4 rounded shadow border-green-500">
+                        <h3 class="text-gray-100 font-mono font-semibold text-lg ml-4 mt-4">Aniverse</h3>
+                        <p class="text-gray-100 font-mono font-semibold ml-4">An anime website I was working on as a side project.</p>
+                        <button class="bg-blue-400 ml-4 px-2 py-1 rounded text-gray-100 hover:bg-blue-500 font-mono font-semibold mt-2"
+                        onclick="location.href='https://github.com/AniverseTM/Aniverse/'"
+                        >Visit</button>
+                        <img src="static/images/examples/aniverse.png" class="mx-auto p-4" style="border-radius: 1.5rem;">
                     </div>
                 </div>
                 
