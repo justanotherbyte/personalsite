@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link href="static/css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="text-gray-600 body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                    <a href="/index.html"><span class="ml-3 text-xl font-semibold text-white font-mono">Vish</span></a>
+                </a>
+                <nav class="md:ml-auto flex flex-wrap items-center text-base font-semibold font-mono justify-center text-gray-300">
+                    <a class="mr-5 hover:text-gray-400 duration-300" href="/index.html">Home</a>
+                    <a class="mr-5 hover:text-gray-400 duration-300" href="/technologies.html">Technologies</a>
+                    <a class="mr-5 hover:text-gray-400 duration-300">Timeline</a>
+                    <a class="mr-5 hover:text-gray-400 duration-300" href="mailto:wishymovies@gmail.com">Contact Me</a>
+                </nav>
+                <button
+                    class="inline-flex items-center bg-pastel-orange border-0 py-1 px-3 focus:outline-none font-semibold rounded text-gray-100 mt-4 md:mt-0 border border-transparent hover:border-white duration-300 font-mono"
+                    onclick="location.href='https://github.com/justanotherbyte'"
+                    >GitHub
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+            </div>
+        </header>
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+                    <h1 class="sm:text-3xl text-2xl font-semibold font-mono title-font mb-2 text-gray-100">Technologies I work with
+                    </h1>
+                    <p class="lg:w-1/2 w-full leading-relaxed text-gray-300 font-mono">I work with many technologies, from Web and API frameworks like Django and FastAPI to Automation Frameworks such as Pyppeteer!</p>
+                </div>
+                <div class="flex flex-wrap -m-4">
+                    <div class="xl:w-1/3 md:w-1/2 p-4">
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                            <div
+                                class="inline-flex items-center justify-center rounded-full bg-transparent text-indigo-500 mb-4">
+                                <img src="static/images/icons/django.png" class="w-10 h-10">
+                            </div>
+                            <h2 class="text-lg text-gray-200 font-medium title-font mb-2 font-mono font-semibold">Django</h2>
+                            <p class="leading-relaxed text-base font-mono text-gray-300">
+                                Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="xl:w-1/3 md:w-1/2 p-4">
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                            <div
+                                class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-transparent text-indigo-500 mb-4">
+                                <img src="static/images/icons/fastapi.png" class="w-12 h-auto">
+                            </div>
+                            <h2 class="text-lg text-gray-200 font-medium title-font mb-2 font-mono font-semibold">FastAPI</h2>
+                            <p class="leading-relaxed text-base font-mono text-gray-300">FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.</p>
+                        </div>
+                    </div>
+                    <div class="xl:w-1/3 md:w-1/2 p-4">
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                            <div
+                                class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-transparent text-indigo-500 mb-4">
+                                <img src="static/images/icons/dpy.png" class="w-10 h-10 rounded-full">
+                            </div>
+                            <h2 class="text-lg text-gray-200 font-medium title-font mb-2 font-mono font-semibold">discord.py</h2>
+                            <p class="leading-relaxed text-base font-mono text-gray-300">discord.py is a modern, easy to use, feature-rich, and async ready API wrapper for Discord.</p>
+                        </div>
+                    </div>
+                    <div class="xl:w-1/3 md:w-1/2 p-4">
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                            <div
+                                class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-transparent text-indigo-500 mb-4">
+                                <img src="static/images/icons/psql.webp" class="w-10 h-10">
+                            </div>
+                            <h2 class="text-lg text-gray-200 font-medium title-font mb-2 font-mono font-semibold">PostgreSQL</h2>
+                            <p class="leading-relaxed text-base font-mono text-gray-300">PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.</p>
+                        </div>
+                    </div>
+                    <div class="xl:w-1/3 md:w-1/2 p-4">
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                            <div
+                                class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-transparent text-indigo-500 mb-4">
+                                <img src="static/images/icons/tailwind.svg" class="w-10 h-10">
+                            </div>
+                            <h2 class="text-lg text-gray-200 font-medium title-font mb-2 font-mono font-semibold">Tailwind CSS</h2>
+                            <p class="leading-relaxed text-base font-mono text-gray-300">A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.</p>
+                        </div>
+                    </div>
+                    <div class="xl:w-1/3 md:w-1/2 p-4">
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                            <div
+                                class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-transparent text-indigo-500 mb-4">
+                                <img src="static/images/icons/mongodb.png" class="w-10 h-10">
+                            </div>
+                            <h2 class="text-lg text-gray-200 font-medium title-font mb-2 font-mono font-semibold">MongoDB</h2>
+                            <p class="leading-relaxed text-base font-mono text-gray-300">Accelerate development, address diverse data sets, and adapt quickly to change with a proven application data platform built around the database most wanted by developers 4 years running.</p>
+                        </div>
+                    </div>
+                    <div class="xl:w-1/3 md:w-1/2 p-4">
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                            <div
+                                class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-transparent text-indigo-500 mb-4">
+                                <img src="static/images/icons/redis.webp" class="w-10 h-10">
+                            </div>
+                            <h2 class="text-lg text-gray-200 font-medium title-font mb-2 font-mono font-semibold">Redis</h2>
+                            <p class="leading-relaxed text-base font-mono text-gray-300">Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache, and message broker. Redis provides data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes, and streams. Redis has built-in replication, Lua scripting, LRU eviction, transactions, and different levels of on-disk persistence, and provides high availability via Redis Sentinel and automatic partitioning with Redis Cluster.</p>
+                        </div>
+                    </div>
+                    <div class="xl:w-1/3 md:w-1/2 p-4">
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                            <div
+                                class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-transparent text-indigo-500 mb-4">
+                                <img src="static/images/icons/python.webp" class="w-10 h-10">
+                            </div>
+                            <h2 class="text-lg text-gray-200 font-medium title-font mb-2 font-mono font-semibold">Python</h2>
+                            <p class="leading-relaxed text-base font-mono text-gray-300">Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse.</p>
+                        </div>
+                    </div>
+                    <div class="xl:w-1/3 md:w-1/2 p-4">
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                            <div
+                                class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-transparent text-indigo-500 mb-4">
+                                <img src="static/images/icons/heroku.png" class="w-10 h-10">
+                            </div>
+                            <h2 class="text-lg text-gray-200 font-medium title-font mb-2 font-mono font-semibold">Heroku</h2>
+                            <p class="leading-relaxed text-base font-mono text-gray-300">Heroku is a container-based cloud Platform as a Service (PaaS). Developers use Heroku to deploy, manage, and scale modern apps. Our platform is elegant, flexible, and easy to use, offering developers the simplest path to getting their apps to market.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--<button
+                    class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>-->
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <footer class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+              <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                  <img src="static/images/v.png" class="w-10 h-10 p-2">
+                  <span class="ml-3 text-xl text-gray-100 font-semibold font-mono">Vish</span>
+                </a>
+                <p class="mt-2 text-sm text-gray-200 font-mono">This website is hosted on netlify and built with pure HTML and CSS. No backend involved.</p>
+              </div>
+              <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                  <h2 class="font-semibold text-gray-200 tracking-widest text-sm mb-3 font-mono">Site</h2>
+                  <nav class="list-none mb-10">
+                    <li>
+                      <a class="text-gray-200 hover:text-gray-400 font-mono" href="/index.html">Home</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-200 hover:text-gray-400 font-mono">Technologies</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-200 hover:text-gray-400 font-mono">Timeline</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-200 hover:text-gray-400 font-mono" href="mailto:wishymovies@gmail.com">Contact Me</a>
+                    </li>
+                  </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                  <h2 class="font-semibold text-gray-200 tracking-widest text-sm mb-3 font-mono">Other Projects</h2>
+                  <nav class="list-none mb-10">
+                    <li>
+                      <a class="text-gray-200 hover:text-gray-400 font-mono" href="https://github.com/justanotherbyte/aiogifs">aiogifs</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-200 hover:text-gray-400 font-mono" href="https://justanotherbyte.github.io/ahri-site/">Ahri Site</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-200 hover:text-gray-400 font-mono" href="https://github.com/justanotherbyte/bonked-aviation">bonked-aviation</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-200 hover:text-gray-400 font-mono" href="https://github.com/justanotherbyte/dragonbot">dragonbot</a>
+                    </li>
+                  </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                  <h2 class="font-semibold text-gray-200 tracking-widest text-sm mb-3 font-mono">Contact Information</h2>
+                  <nav class="list-none mb-10">
+                    <li>
+                      <a class="text-gray-200 hover:text-gray-400 font-mono" href="mailto:wishymovies@gmail.com">Email</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-200 hover:text-gray-400 font-mono" href="https://discord.com/users/691406006277898302">Discord</a>
+                    </li>
+                    <!--<li>
+                      <a class="text-gray-200 hover:text-gray-400 font-mono">Third Link</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-200 hover:text-gray-400 font-mono">Fourth Link</a>
+                    </li>-->
+                  </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                  <h2 class="font-semibold text-gray-200 tracking-widest text-sm mb-3 font-mono">Vote for my bots!</h2>
+                  <nav class="list-none mb-10">
+                    <li>
+                      <a class="text-gray-200 hover:text-gray-400 font-mono" href="https://top.gg/bot/816072085365194792/vote">Top.gg</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-200 hover:text-gray-400 font-mono" href="https://discordbotlist.com/bots/aniduel/upvote">discord.ly</a>
+                    </li>
+                    <!--<li>
+                      <a class="text-gray-200 hover:text-gray-400 font-mono">Third Link</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-200 hover:text-gray-400 font-mono">Fourth Link</a>
+                    </li>-->
+                  </nav>
+                </div>
+              </div>
+            </div>
+            
+          </footer>
+    </body>
+</html>
